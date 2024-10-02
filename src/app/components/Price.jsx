@@ -7,7 +7,7 @@ import { fadeIn } from "../../../variants";
 function Price() {
   return (
     <div
-      className=" relative min-h-screen  p mt-4 overflow-hidden"
+      className=" relative min-h-screen mt-4 overflow-hidden"
       style={{
         backgroundImage: "url(/images/bg.png)",
         backgroundSize: "cover",
@@ -16,7 +16,7 @@ function Price() {
       }}
     >
       <img src="/images/bg3.svg" className="w-full absolute -top-32 " />
-      <section className="mt-24 flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-0 lg:text-right text-textcolor p-20 xl:ml-64">
+      <section className="mt-24 flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-0 lg:text-right text-textcolor p-8 md:p-20 xl:ml-64">
         <motion.div
           variants={fadeIn("right", 0.1)}
           initial="hidden"
